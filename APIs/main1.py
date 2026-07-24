@@ -35,7 +35,7 @@ def productos():
 
 @app.get("/usuarios")
 def usuarios():
-    return{
+    return[{
         "id" : 1,
         "nombre": "camila",
         "apellido": "perez",
@@ -43,14 +43,29 @@ def usuarios():
         "telefono": 3105214567,
         "correo": "camilaperez@gmail.com",
         "password": ""
+    },
+    {
+        "id" : 2,
+        "nombre" : "Paola",
+        "apellido" : "Suarez",
+        "numero documento" : 102354789,
+        "telefono" : 3152645987,
+        "correo" : "paosuarez@gmail.com",
+        "password" : ""
     }
-
+    ]
 @app.get("/perfiles")
 def perfiles():
-    return{
+    return[{
         "id" : 1,
         "nombre" : "administrador"
-    },{
+    },
+    {
         "id" : 2,
         "nombre" : "cliente"
+    },
+    {
+        "id" :3,
+        "nombre" : "supervisor"
     }
+    ]
