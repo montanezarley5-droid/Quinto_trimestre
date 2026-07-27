@@ -4,6 +4,8 @@
  */
 package Pruebas;
 
+import Controlador.Conexion;
+import java.sql.Connection;
 /**
  *
  * @author Aprendiz
@@ -15,6 +17,15 @@ public class PruebaConexion {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        
+     Conexion loro = new Conexion();
+     Connection con = loro.getconn();
+     
+     
+        
+        
+        
+        
     }
     
 }
