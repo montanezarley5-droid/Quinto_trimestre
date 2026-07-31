@@ -81,4 +81,15 @@ public class Usuario {
     private String correo;
     private int tipoDocumentoIdTipoDocumento;
     private int idRol;
+
+    public String getContrasena() {
+        return contrasena;
+    }
+
+    public void setContrasena(String contrasena) {
+        this.contrasena = contrasena;
+    }
+    private String contrasena;
+
+    
 }
