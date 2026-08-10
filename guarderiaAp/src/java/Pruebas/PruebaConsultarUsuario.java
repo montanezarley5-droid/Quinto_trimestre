@@ -21,7 +21,7 @@ public class PruebaConsultarUsuario {
         UsuariosDAO miUsuarioDAO = new UsuariosDAO();
         System.out.print("Ingrese el correo del usuario a consultar:   ");
         String busqueda = sc.nextLine();
-        Usuario miUsuario = miUsuarioDAO.consularUsuario(busqueda);
+        Usuario miUsuario = miUsuarioDAO.consultarUsuario(busqueda);
         
         if(miUsuario != null){
             System.out.println("Nombre " + miUsuario.getNombre());

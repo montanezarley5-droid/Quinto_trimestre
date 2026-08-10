@@ -4,22 +4,11 @@
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
             <file>file:/C:/Users/Aprendiz/Documents/NetBeansProjects/guarderiaAp/src/java/Controlador/Conexion.java</file>
-            <file>file:/C:/Users/Aprendiz/Documents/NetBeansProjects/guarderiaAp/src/java/Modelo/EstadoAsistencia.java</file>
-            <file>file:/C:/Users/Aprendiz/Documents/NetBeansProjects/guarderiaAp/src/java/Modelo/Roles.java</file>
-            <file>file:/C:/Users/Aprendiz/Documents/NetBeansProjects/guarderiaAp/src/java/Modelo/RegistroMedico.java</file>
             <file>file:/C:/Users/Aprendiz/Documents/NetBeansProjects/guarderiaAp/src/java/Controlador/UsuariosDAO.java</file>
             <file>file:/C:/Users/Aprendiz/Documents/NetBeansProjects/guarderiaAp/src/java/Modelo/Ninos.java</file>
             <file>file:/C:/Users/Aprendiz/Documents/NetBeansProjects/guarderiaAp/src/java/Modelo/Usuario.java</file>
-            <file>file:/C:/Users/Aprendiz/Documents/NetBeansProjects/guarderiaAp/src/java/Modelo/Pagos.java</file>
-            <file>file:/C:/Users/Aprendiz/Documents/NetBeansProjects/guarderiaAp/src/java/Modelo/ProfesionDocente.java</file>
-            <file>file:/C:/Users/Aprendiz/Documents/NetBeansProjects/guarderiaAp/src/java/Modelo/Aulas.java</file>
-            <file>file:/C:/Users/Aprendiz/Documents/NetBeansProjects/guarderiaAp/src/java/Modelo/Actividades.java</file>
-            <file>file:/C:/Users/Aprendiz/Documents/NetBeansProjects/guarderiaAp/src/java/Modelo/Asistencia.java</file>
-            <file>file:/C:/Users/Aprendiz/Documents/NetBeansProjects/guarderiaAp/src/java/Modelo/NinosHasUsuarios.java</file>
-            <file>file:/C:/Users/Aprendiz/Documents/NetBeansProjects/guarderiaAp/src/java/Modelo/Grupos.java</file>
-            <file>file:/C:/Users/Aprendiz/Documents/NetBeansProjects/guarderiaAp/src/java/Modelo/NinosHasActividades.java</file>
+            <file>file:/C:/Users/Aprendiz/Documents/NetBeansProjects/guarderiaAp/src/java/Pruebas/PruebaConsultarUsuario.java</file>
             <file>file:/C:/Users/Aprendiz/Documents/NetBeansProjects/guarderiaAp/src/java/Pruebas/PruebaConexion.java</file>
-            <file>file:/C:/Users/Aprendiz/Documents/NetBeansProjects/guarderiaAp/src/java/Modelo/TipoDocumento.java</file>
         </group>
     </open-files>
 </project-private>

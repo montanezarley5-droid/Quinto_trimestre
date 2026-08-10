@@ -6,7 +6,6 @@ package Pruebas;
 
 import Controlador.UsuariosDAO;
 import Modelo.Usuario;
-import java.sql.SQLException;
 import java.util.Scanner;
 
 /**
@@ -14,11 +13,8 @@ import java.util.Scanner;
  * @author Aprendiz
  */
 public class PruebaInsertarUsuario {
-
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) throws SQLException {
+    
+    public static void main(String[] args) {
         
         Scanner sc = new Scanner(System.in);
         Usuario miUsuario = new Usuario();
@@ -37,9 +33,9 @@ public class PruebaInsertarUsuario {
         System.out.println("Por favor ingrese su contrasena: ");
         miUsuario.setContrasena(sc.nextLine());
         System.out.println("Por favor ingrese un ID para el tipo de documento: ");
-        miUsuario.setTipo_Documento_Id_Tipo_Documento(sc.nextInt());
+        miUsuario.setTipoDocumentoIdTipoDocumento(sc.nextInt());
         System.out.println("Por favor ingrese un ID para el rol: ");
-        miUsuario.setId_Rol(sc.nextInt());
+        miUsuario.setIdRol(sc.nextInt());
         
         boolean resultado = dao.InsertarUsuario(miUsuario);
         if(resultado){
