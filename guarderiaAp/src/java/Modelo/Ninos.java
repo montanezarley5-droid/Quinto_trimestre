@@ -3,6 +3,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
 package Modelo;
+import java.time.LocalDate;
 import java.util.Date;
 /**
  *
@@ -81,4 +82,6 @@ public class Ninos {
     private String numeroDocumento;
     private int idGrupos;
     private int tipoDocumentoIdTipoDocumento;
+
+    
 }

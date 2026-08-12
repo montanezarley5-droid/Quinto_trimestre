@@ -160,11 +160,7 @@ public class UsuariosDAO {
         }
         return eliminar;
     }
-
-    public boolean insertarUsuario(Usuario miUsuario) {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
-    }
-}
+ }
   
 
   
