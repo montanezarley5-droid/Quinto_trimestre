@@ -6,7 +6,6 @@ package Pruebas;
 
 import Controlador.PerfilesDAO;
 import Modelo.Perfiles;
-import java.sql.SQLException;
 import java.util.Scanner;
 
 /**
@@ -14,21 +13,20 @@ import java.util.Scanner;
  * @author Aprendiz
  */
 public class PruebaConsultarPerfil {
-    PerfilesDAO miperfil = new PerfilesDAO();
-    public static void main(String[] args) throws SQLException {
+    public static void main(String[] args){
        Scanner sc = new Scanner(System.in);
-       PerfilesDAO dao = new PerfilesDAO();
+       PerfilesDAO miPerfilDAO = new PerfilesDAO();
        
-       System.out.print("Ingrese el ID del perfil a consultar");
-       String busqueda = sc.nextLine();
-       Perfiles miperfil = dao.consultarPerfil(busqueda);
+       System.out.print("Ingrese el ID del perfil a consultar: ");
+       int busqueda = sc.nextInt();
+       Perfiles miperfil = miPerfilDAO.consultarPerfil(busqueda);
        
        if(miperfil !=null){
            
-           System.out.print("Nombre perfil: " + miperfil.getNombrePerfil());
-           System.out.print("Id perfil: " + miperfil.getIdPerfiles());
+           System.out.println("Nombre perfil: " + miperfil.getNombrePerfil());
+           System.out.println("Id perfil: " + miperfil.getIdPerfil());
        }else{
-           
+           System.out.println("no se encontro el perfil");
        }
     }
     

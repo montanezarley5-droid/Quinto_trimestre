@@ -8,9 +8,9 @@ package Modelo;
  *
  * @author Aprendiz
  */
-public class Perfiles {
+public class PerfilesYPermisos {
      private int idPerfil;
-    private String nombrePerfil;
+    private int idRolPermiso;
 
     public int getIdPerfil() {
         return idPerfil;
@@ -20,12 +20,11 @@ public class Perfiles {
         this.idPerfil = idPerfil;
     }
 
-    public String getNombrePerfil() {
-        return nombrePerfil;
+    public int getIdRolPermiso() {
+        return idRolPermiso;
     }
 
-    public void setNombrePerfil(String nombrePerfil) {
-        this.nombrePerfil = nombrePerfil;
+    public void setIdRolPermiso(int idRolPermiso) {
+        this.idRolPermiso = idRolPermiso;
     }
-   
 }
